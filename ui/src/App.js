@@ -1,8 +1,8 @@
-import Profile from "./pages/profile/Profile";
+import Login from "./pages/LoginPage/Login"
 
 
 function App() {
-  return <Profile/>;
+  return <Login/>;
 }
 
 export default App;
