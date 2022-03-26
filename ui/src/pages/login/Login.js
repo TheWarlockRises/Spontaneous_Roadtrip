@@ -5,7 +5,7 @@ const Login = () => (
   <div className="login">
       <div className="loginWrapper">
         <div className="loginSubLeft">
-            <h3 className="loginLogo"> PlaceholderCompany </h3>
+            <h3 className="loginLogo"> PlaceholderCompany</h3>
             <span className="loginDesc"> 
                 Woah what a thrilling description!
             </span>
