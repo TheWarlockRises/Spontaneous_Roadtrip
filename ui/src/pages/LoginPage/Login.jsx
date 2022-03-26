@@ -1,11 +1,12 @@
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h3 className="loginLogo">PlaceHolderCompany.com</h3>
+          <h3 className="loginLogo">PlaceHolderCompany</h3>
           <span className="loginDesc">
             What a thrilling description!
           </span>
@@ -14,11 +15,8 @@ export default function Login() {
           <div className="loginBox">
             <input placeholder="Email" className="loginInput" />
             <input type = "password" placeholder="Password" className="loginInput" />
-            <button className="loginButton">Log In</button>
-            <span className="loginForgot">Forgot Password?</span>
-            <button className="loginRegisterButton">
-              Create a New Account
-            </button>
+            <Link to="/home" className="loginButton">Log In</Link>
+            <Link to="/register" className="loginRegisterButton">Create a new account</Link>
           </div>
         </div>
       </div>
