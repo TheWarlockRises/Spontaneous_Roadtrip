@@ -1,33 +1,18 @@
-import React from 'react';
-import "./Home.css";
-/*
+import Topbar from "../../components/topbar/Topbar";
+import Sidebar from "../../components/sidebar/Sidebar";
+import Feed from "../../components/feed/Feed";
+import Rightbar from "../../components/rightbar/Rightbar";
+import "./Home.css"
+
 export default function Home() {
-    return (
-       <div className="HomePage">
-           <div className="ToprightLogo">
-               <div id="wrapper">
-                   PlaceHolderName.com
-               </div>
-               <div id ="search">
-                   <form><input type = "search" placeholder="Search..." /></form>
-               </div>
-           </div>
-       </div>
-    )
-}
-*/
-export default function Home() {
-    return (
-        <div className="HomePage">
-            <div className="Topbar">
-                <div id="wrapper">
-                    PlaceHolder.com
-                    <div className="search_bar">
-                    <form><input type = "search" placeholder="Search..." size={50}/></form>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    )
+  return (
+    <>
+      <Topbar />
+      <div className="homeContainer">
+        <Sidebar />
+        <Feed/>
+        <Rightbar/>
+      </div>
+    </>
+  );
 }
