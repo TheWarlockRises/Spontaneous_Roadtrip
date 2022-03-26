@@ -8,6 +8,12 @@
     top: 0;
 }
 
+.topbarLink{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
 .logo{
     font-size: 24px;
     margin-left: 20px;
@@ -84,4 +90,7 @@
 .topbarImg{
     width: 32px;
     height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
 }
