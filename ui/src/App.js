@@ -1,10 +1,12 @@
 import './App.css';
-import Home from "./pages/HomePage/Home";
+import Topbar from './components/topbar/Topbar';
+import Login from './pages/login/Login'
+import Profile from './pages/profile/Profile'
 
 function App() {
   return (
-    <Home/>
-  )
+    <Topbar />
+  );
 }
 
 export default App;
