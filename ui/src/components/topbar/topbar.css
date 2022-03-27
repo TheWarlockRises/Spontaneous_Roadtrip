@@ -17,6 +17,11 @@
     cursor: pointer;
 }
 
+.logoText{
+    text-decoration: none;
+    color: white;
+}
+
 .logo{
     font-size: 24px;
     margin-left: 20px;
