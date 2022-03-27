@@ -7,3 +7,4 @@ export { default as TravelList } from './travelList/TravelList';
 export { default as AddLocation } from './addLocation/AddLocation';
 export { default as JourneySelector } from './journeySelector/JourneySelector';
 export { default as Directions } from './directions/Directions';
+export { default as CreatePost } from './createPost/CreatePost';

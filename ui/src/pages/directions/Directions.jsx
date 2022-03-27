@@ -16,7 +16,7 @@ export default function TravelList() {
                     <p>Map will go here</p>
                 </div>
                 <div className="buttons">
-                  <Link to="/travelList" className="button">Share</Link>
+                  <Link to="/createPost" className="button">Share</Link>
                 </div>
             </div>
         </div>
