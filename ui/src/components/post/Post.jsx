@@ -2,6 +2,8 @@ import "./post.css";
 import { MoreVert } from "@mui/icons-material";
 import { Users } from "../../dummyData";
 import { useState } from "react";
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 export default function Post({ post }) {
   const [like,setLike] = useState(post.like)
@@ -36,8 +38,8 @@ export default function Post({ post }) {
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
-            <img className="likeIcon" src="assets/like.png" onClick={likeHandler} alt="" />
-            <img className="likeIcon" src="assets/heart.png" onClick={likeHandler} alt="" />
+            <ThumbUpIcon className="likeIcon" onClick={likeHandler}/>
+            <FavoriteIcon className="likeIcon" onClick={likeHandler}/>
             <span className="postLikeCounter">{like} people like it</span>
           </div>
           <div className="postBottomRight">

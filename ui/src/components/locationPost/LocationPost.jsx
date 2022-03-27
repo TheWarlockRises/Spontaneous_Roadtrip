@@ -4,6 +4,10 @@ import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import { Link } from "react-router-dom";
 
 export default function LocationPost({ post }) {
+  const deleteLocation = () =>{
+    console.log("test")
+  }
+
   return (
     <div className="loc">
       <div className="locWrapper">
@@ -18,7 +22,7 @@ export default function LocationPost({ post }) {
           <div className="locBottomLeft">
           </div>
           <div className="locBottomRight">
-            <DeleteForeverIcon className="sidebarIcon" />
+            <DeleteForeverIcon className="trashcan" onClick={deleteLocation}/>
           </div>
         </div>
       </div>

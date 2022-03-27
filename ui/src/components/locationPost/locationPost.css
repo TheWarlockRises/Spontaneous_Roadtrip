@@ -57,3 +57,7 @@
 .locText{
     font-size: 20px;
 }
+
+.trashcan{
+    cursor: pointer;
+}
