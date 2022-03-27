@@ -4,6 +4,7 @@ import { Users } from "../../dummyData";
 import { useState } from "react";
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import PersonIcon from '@mui/icons-material/Person';
 
 export default function Post({ post }) {
   const [like,setLike] = useState(post.like)
@@ -18,11 +19,7 @@ export default function Post({ post }) {
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-            <img
-              className="postProfileImg"
-              src={Users.filter((u) => u.id === post?.userId)[0].profilePicture}
-              alt=""
-            />
+            <PersonIcon />
             <span className="postUsername">
               {Users.filter((u) => u.id === post?.userId)[0].username}
             </span>
@@ -34,7 +31,6 @@ export default function Post({ post }) {
         </div>
         <div className="postCenter">
           <span className="postText">{post?.desc}</span>
-          <img className="postImg" src={post.photo} alt="" />
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">

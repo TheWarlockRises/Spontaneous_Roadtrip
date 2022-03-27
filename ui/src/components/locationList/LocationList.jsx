@@ -1,7 +1,7 @@
 import "./locationList.css"
 import LocationPost from '../locationPost/LocationPost'
 import GoogleMap from "../../components/googleMap/maps";
-import { Posts } from "../../dummyData";
+import { Locations } from "../../dummyData";
 
 export default function LocationList() {
     return (
@@ -11,8 +11,8 @@ export default function LocationList() {
                     <GoogleMap />
                 </div>
                 <div className="locations">
-                    {Posts.map((p) =>(
-                        <LocationPost key={p.id} post={p} />
+                    {Locations.map((p) =>(
+                        <LocationPost Location={p} />
                     ))
                     }
                 </div>

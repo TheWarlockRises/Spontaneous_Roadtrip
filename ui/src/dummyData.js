@@ -137,3 +137,36 @@ export const Users = [
       comment: 12,
     },
   ];
+
+  export const Locations = [
+    {
+      name: "Empire State Building"
+    },
+    {
+      name: "Golden Gate Bridge"
+    },
+    {
+      name: "Space Center Houston"
+    },
+    {
+      name: "Hoover Dam"
+    },
+    {
+      name: "White House"
+    },
+    {
+      name: "South Beach"
+    },
+    {
+      name: "Disney World"
+    },
+    {
+      name: "French Quarter"
+    },
+    {
+      name: "Disney Land"
+    },
+    {
+      name: "Art Institution of Chicago"
+    }
+  ]

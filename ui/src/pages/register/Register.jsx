@@ -6,9 +6,9 @@ export default function Register() {
     <div className="register">
       <div className="registerWrapper">
         <div className="registerLeft">
-          <h3 className="registerLogo">PlaceHolderCompany</h3>
+          <h3 className="registerLogo">TripBucket</h3>
           <span className="registerDesc">
-          What a thrilling description!
+          Let's see the world together!
           </span>
         </div>
         <div className="registerRight">

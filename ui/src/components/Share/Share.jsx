@@ -1,13 +1,14 @@
 import "./share.css";
 import {PermMedia, Label,Room, EmojiEmotions} from "@mui/icons-material"
 import { Link } from "react-router-dom";
+import PersonIcon from '@mui/icons-material/Person';
 
 export default function Share() {
   return (
     <div className="share">
       <div className="shareWrapper">
         <div className="shareTop">
-          <img className="shareProfileImg" src="/assets/person/1.jpeg" alt="" />
+          <PersonIcon className="shareProfileImg" />
           <input
             placeholder="What's in your mind Safak?"
             className="shareInput"

@@ -3,6 +3,7 @@ import Topbar from "../../components/topbar/Topbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Feed from "../../components/feed/Feed";
 import Rightbar from "../../components/rightbar/Rightbar";
+import PersonIcon from '@mui/icons-material/Person';
 
 export default function Profile() {
   return (
@@ -13,16 +14,8 @@ export default function Profile() {
         <div className="profileRight">
           <div className="profileRightTop">
             <div className="profileCover">
-              <img
-                className="profileCoverImg"
-                src="assets/post/3.jpeg"
-                alt=""
-              />
-              <img
-                className="profileUserImg"
-                src="assets/person/7.jpeg"
-                alt=""
-              />
+              <div className="profileCoverImg" />
+              <PersonIcon className="profileUserImg"/>
             </div>
             <div className="profileInfo">
                 <h4 className="profileInfoName">Safak Kocaoglu</h4>
