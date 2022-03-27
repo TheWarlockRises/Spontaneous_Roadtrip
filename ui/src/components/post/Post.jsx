@@ -14,6 +14,15 @@ export default function Post({ post }) {
     setLike(isLiked ? like-1 : like+1)
     setIsLiked(!isLiked)
   }
+
+  const [favorite, setFavorite] = useState(post.favorite)
+  const [isFavorite, setIsFavorite] = useState(false)
+
+  const favHandler =()=>{
+    setFavorite(isFavorite ? favorite-1 : favorite+1)
+    setIsFavorite(!isFavorite)
+  }
+
   return (
     <div className="post">
       <div className="postWrapper">
@@ -35,8 +44,11 @@ export default function Post({ post }) {
         <div className="postBottom">
           <div className="postBottomLeft">
             <ThumbUpIcon className="likeIcon" onClick={likeHandler}/>
-            <FavoriteIcon className="likeIcon" onClick={likeHandler}/>
             <span className="postLikeCounter">{like} people like it</span>
+            &nbsp;
+            &nbsp;
+            <FavoriteIcon className="likeIcon" onClick={favHandler}/>
+            <span className="postLikeCounter">{favorite} people favorited it</span>
           </div>
           <div className="postBottomRight">
             <span className="postCommentText">{post.comment} comments</span>

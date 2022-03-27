@@ -59,6 +59,7 @@ export const Users = [
       date: "5 mins ago",
       userId: 1,
       like: 32,
+      favorite: 12,
       comment: 9,
     },
     {
@@ -67,6 +68,7 @@ export const Users = [
       date: "15 mins ago",
       userId: 2,
       like: 2,
+      favorite: 15,
       comment: 1,
     },
     {
@@ -76,6 +78,7 @@ export const Users = [
       date: "1 hour ago",
       userId: 3,
       like: 61,
+      favorite: 7,
       comment: 2,
     },
     {
@@ -84,6 +87,7 @@ export const Users = [
       date: "4 hours ago",
       userId: 4,
       like: 7,
+      favorite: 20,
       comment: 3,
     },
     {
@@ -92,6 +96,7 @@ export const Users = [
       date: "5 hours ago",
       userId: 5,
       like: 23,
+      favorite: 12,
       comment: 5,
     },
     {
@@ -100,6 +105,7 @@ export const Users = [
       date: "1 day ago",
       userId: 6,
       like: 44,
+      favorite: 9,
       comment: 6,
     },
     {
@@ -109,6 +115,7 @@ export const Users = [
       date: "2 days ago",
       userId: 7,
       like: 52,
+      favorite: 10,
       comment: 3,
     },
     {
@@ -116,7 +123,8 @@ export const Users = [
       photo: "assets/post/8.jpeg",
       date: "3 days ago",
       userId: 8,
-      like: 15,
+      like: 0,
+      favorite: 1,
       comment: 1,
     },
     {
@@ -126,6 +134,7 @@ export const Users = [
       date: "5 days ago",
       userId: 9,
       like: 11,
+      favorite: 20,
       comment: 2,
     },
     {
@@ -134,6 +143,7 @@ export const Users = [
       date: "1 week ago",
       userId: 10,
       like: 104,
+      favorite: 10,
       comment: 12,
     },
   ];

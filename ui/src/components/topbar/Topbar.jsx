@@ -6,7 +6,7 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">PlaceHolderCompany.com</span>
+        <span className="logo"><Link to="/home">TripBucket.com</Link></span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
