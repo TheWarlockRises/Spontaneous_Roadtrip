@@ -1,4 +1,4 @@
-import { Login, Register, Home, Profile, ProfileEdit } from './pages'
+import { Login, Register, Home, Profile, ProfileEdit, TravelList, AddLocation } from './pages'
 
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
@@ -9,6 +9,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/profileEdit" element={<ProfileEdit />} />
+        <Route path="/travelList" element={<TravelList />} />
+        <Route path="/addLocation" element={<AddLocation />} />
     </Routes>
 }
 

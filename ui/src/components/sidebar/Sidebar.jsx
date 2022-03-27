@@ -4,6 +4,7 @@ import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
 import HikingIcon from '@mui/icons-material/Hiking';
 import { Users } from "../../dummyData";
 import Friend from "../friends/friends";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -12,11 +13,11 @@ export default function Sidebar() {
         <ul className="sidebarList">
           <li className="sidebarListItem">
             <MapIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">View Planned Trips</span>
+            <Link to="/travelList" className="sidebarListItemText">View Planned Trips</Link>
           </li>
           <li className="sidebarListItem">
             <AddLocationAltIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Add New Trip</span>
+            <Link to="/addLocation" className="sidebarListItemText">Add New Trip</Link>
           </li>
           <li className="sidebarListItem">
             <HikingIcon className="sidebarIcon" />

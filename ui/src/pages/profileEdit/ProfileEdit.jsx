@@ -2,7 +2,7 @@ import Topbar from "../../components/topbar/Topbar";
 import "./profileEdit.css"
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function ProfileEdit() {
   return (
     <>
       <Topbar />

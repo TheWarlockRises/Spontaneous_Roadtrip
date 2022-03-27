@@ -53,3 +53,7 @@
     margin: 0;
     list-style: none;
   }
+
+  .sidebarListItemText{
+    text-decoration: none;
+  }
