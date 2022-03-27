@@ -1,11 +1,16 @@
 import "./Login.css";
 import { Link } from "react-router-dom";
+import logoImage from "../../components/assets/logo.png";
 
 export default function Login() {
   return (
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
+        <img src={ logoImage } alt="" 
+          width="50px"
+          height="50px"
+          />
           <h3 className="loginLogo">TripBucket</h3>
           <span className="loginDesc">
             Let's see the world together!

@@ -1,12 +1,18 @@
 import "./topbar.css";
 import { Search } from "@mui/icons-material";
 import { Link } from "react-router-dom";
+import logoImage from "../assets/logo.png";
 
 export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo"><Link to="/home" className="logoText">TripBucket.com</Link></span>
+      <span className="logo"><Link to="/home" className="logoText">
+      <img src = { logoImage } alt=""
+        width="50"
+        height="50"
+        />
+        TripBucket.com</Link></span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">

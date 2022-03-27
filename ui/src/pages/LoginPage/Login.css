@@ -13,7 +13,12 @@
     display: flex;
   }
   
-  .loginLeft,
+  .loginLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .loginRight {
     flex: 1;
     display: flex;
