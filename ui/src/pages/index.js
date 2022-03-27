@@ -5,3 +5,4 @@ export { default as Register } from './register/Register';
 export { default as ProfileEdit } from './profileEdit/ProfileEdit';
 export { default as TravelList } from './travelList/TravelList';
 export { default as AddLocation } from './addLocation/AddLocation';
+export { default as JourneySelector } from './journeySelector/JourneySelector';

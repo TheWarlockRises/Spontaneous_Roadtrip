@@ -3,22 +3,25 @@ import { Link } from "react-router-dom";
 
 export default function Register() {
   return (
-    <div className="login">
-      <div className="loginWrapper">
-        <div className="loginLeft">
-          <h3 className="loginLogo">Lamasocial</h3>
-          <span className="loginDesc">
-            Connect with friends and the world around you on Lamasocial.
+    <div className="register">
+      <div className="registerWrapper">
+        <div className="registerLeft">
+          <h3 className="registerLogo">PlaceHolderCompany</h3>
+          <span className="registerDesc">
+          What a thrilling description!
           </span>
         </div>
-        <div className="loginRight">
-          <div className="loginBox">
-            <input placeholder="Username" className="loginInput" />
-            <input placeholder="Email" className="loginInput" />
-            <input placeholder="Password" className="loginInput" />
-            <input placeholder="Password Again" className="loginInput" />
-            <Link to="/home" className="loginButton">Sign Up</Link>
-            <Link to="/" className="loginRegisterButton">Log into Account</Link>
+        <div className="registerRight">
+          <div className="registerBox">
+            <input placeholder="Username" className="registerInput" />
+            <input placeholder="Password" className="registerInput" />
+            <input placeholder="First Name" className="registerInput" />
+            <input placeholder="First Name" className="registerInput" />
+            <input placeholder="Birthday" className="registerInput" />
+            <div className="bottomButtons">
+              <Link to="/" className="back">Back</Link>
+              <Link to="/home" className="signup">Sign Up</Link>
+            </div>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <HikingIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Send me to a place!</span>
+            <Link to="/journeySelector" className="sidebarListItemText">Embark On A Journey!</Link>
           </li>
         </ul>
         <hr className="sidebarHr" />
