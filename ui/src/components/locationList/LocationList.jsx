@@ -6,7 +6,7 @@ export default function LocationList() {
     return (
         <div className="list">
             <div className="listWrapper">
-                <div className='map'>
+                <div className='locationmap'>
                     <p>Map will go here</p>
                 </div>
                 <div className="locations">
