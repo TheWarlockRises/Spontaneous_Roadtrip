@@ -1,21 +1,23 @@
 import "./locationPost.css";
 import PinDropIcon from '@mui/icons-material/PinDrop';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+import { Link } from "react-router-dom";
 
 export default function LocationPost({ post }) {
   return (
-    <div className="post">
-      <div className="postWrapper">
-        <div className="postCenter">
-            <li className="sidebarListItem">
-                <PinDropIcon className="sidebarIcon" />
-                <span className="sidebarListItemText">Location</span>
+    <div className="loc">
+      <div className="locWrapper">
+        <div className="locCenter">
+            <li className="locItem">
+                <PinDropIcon className="locIcon" />
+                <span className="locText">Location</span>
             </li>
+            <Link to="/directions" className="travelButton">Travel!</Link>
         </div>
-        <div className="postBottom">
-          <div className="postBottomLeft">
+        <div className="locBottom">
+          <div className="locBottomLeft">
           </div>
-          <div className="postBottomRight">
+          <div className="locBottomRight">
             <DeleteForeverIcon className="sidebarIcon" />
           </div>
         </div>
