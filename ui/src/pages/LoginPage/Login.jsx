@@ -7,11 +7,13 @@ export default function Login() {
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-        <img src={ logoImage } alt="" 
-          width="50px"
-          height="50px"
-          />
-          <h3 className="loginLogo">TripBucket</h3>
+          <div className="fullLogo">
+            <img src = { logoImage } alt=""
+              width="75"
+              height="75"
+            />
+            <h3 className="loginLogo">TripBucket</h3>
+          </div>
           <span className="loginDesc">
             Let's see the world together!
           </span>

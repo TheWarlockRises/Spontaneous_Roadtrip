@@ -7,12 +7,11 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-      <span className="logo"><Link to="/home" className="logoText">
-      <img src = { logoImage } alt=""
-        width="50"
-        height="50"
+        <img src = { logoImage } alt=""
+        width="30"
+        height="30"
         />
-        TripBucket.com</Link></span>
+        <Link to="/home" className="logoText">TripBucket.com</Link>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">

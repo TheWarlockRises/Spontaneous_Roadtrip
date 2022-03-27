@@ -20,6 +20,11 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  .fullLogo{
+    display: flex;
+    flex-direction: row;
+  }
   
   .registerLogo {
     font-size: 50px;

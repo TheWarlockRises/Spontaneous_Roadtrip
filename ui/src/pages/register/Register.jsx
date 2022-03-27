@@ -1,12 +1,19 @@
 import "./register.css";
 import { Link } from "react-router-dom";
+import logoImage from "../../components/assets/logo.png";
 
 export default function Register() {
   return (
     <div className="register">
       <div className="registerWrapper">
         <div className="registerLeft">
-          <h3 className="registerLogo">TripBucket</h3>
+        <div className="fullLogo">
+            <img src = { logoImage } alt=""
+              width="75"
+              height="75"
+            />
+            <h3 className="loginLogo">TripBucket</h3>
+          </div>
           <span className="registerDesc">
           Let's see the world together!
           </span>

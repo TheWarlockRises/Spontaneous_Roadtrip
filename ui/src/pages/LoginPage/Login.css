@@ -32,6 +32,11 @@
     color: #1775ee;
     margin-bottom: 10px;
   }
+
+  .fullLogo{
+    display: flex;
+    flex-direction: row;
+  }
   
   .loginDesc {
     font-size: 24px;

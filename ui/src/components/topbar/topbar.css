@@ -19,11 +19,13 @@
 }
 
 .logoText{
+    font-size: 24px;
     text-decoration: none;
     color: white;
+    padding-top: 40px;
 }
 
-.logo{
+.topbarLeft{
     font-size: 24px;
     margin-left: 20px;
     font-weight: bold;
