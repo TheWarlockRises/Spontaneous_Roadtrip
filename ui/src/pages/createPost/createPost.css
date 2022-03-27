@@ -1,0 +1,19 @@
+.shareContainer{
+    display: flex;
+    width: 100%;
+}
+
+.sharing {
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 653px;
+}
+
+.shareMap{
+    width: 500px;
+    height: 300px;
+    background-color: green;
+    margin-bottom: 20px;
+}

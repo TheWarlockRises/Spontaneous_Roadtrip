@@ -1,0 +1,65 @@
+.edit {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topText{
+      text-align: center;
+  }
+  
+  .editWrapper {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .editLeft, .editRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .editField{
+    display: flex;
+  }
+
+  .fieldText{
+    text-align: center;
+  }
+
+  .editInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  .editInput:focus{
+    outline: none;
+  }
+
+  .bottomText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .button{
+      text-align: center;
+      font-size: 20px;
+      text-decoration: none;
+      margin-inline: 150px;
+      height: 30px;
+      width: 60px;
+      border-radius: 10px;
+      border: none;
+      background-color: #1775ee;
+      color: white;
+      padding-top: 10px;
+  }
