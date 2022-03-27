@@ -1,12 +1,12 @@
 export const Users = [
     {
       id:1,
-      profilePicture: "assets/person/1.jpeg",
+      profilePicture: "src/components/assets/person/1.jpg",
       username: "Safak Kocaoglu",
     },
     {
       id:2,
-      profilePicture: "assets/person/2.jpeg",
+      profilePicture: "assets/person/2.png",
       username: "Janell Shrum",
     },
     {
