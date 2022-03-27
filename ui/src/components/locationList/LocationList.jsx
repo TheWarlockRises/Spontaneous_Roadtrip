@@ -1,5 +1,6 @@
 import "./locationList.css"
 import LocationPost from '../locationPost/LocationPost'
+import GoogleMap from "../../components/googleMap/maps";
 import { Posts } from "../../dummyData";
 
 export default function LocationList() {
@@ -7,7 +8,7 @@ export default function LocationList() {
         <div className="list">
             <div className="listWrapper">
                 <div className='locationmap'>
-                    <p>Map will go here</p>
+                    <GoogleMap />
                 </div>
                 <div className="locations">
                     {Posts.map((p) =>(
