@@ -13,11 +13,11 @@ export default function Register() {
         </div>
         <div className="registerRight">
           <div className="registerBox">
-            <input placeholder="Username" className="registerInput" />
-            <input placeholder="Password" className="registerInput" />
+            <input type = "username" placeholder="Username" className="registerInput" />
+            <input type = "Password" placeholder="Password" className="registerInput" />
             <input placeholder="First Name" className="registerInput" />
-            <input placeholder="First Name" className="registerInput" />
-            <input placeholder="Birthday" className="registerInput" />
+            <input placeholder="Last Name" className="registerInput" />
+            <input placeholder="Birthday (M/D/Y)" className="registerInput" />
             <div className="bottomButtons">
               <Link to="/" className="back">Back</Link>
               <Link to="/home" className="signup">Sign Up</Link>
